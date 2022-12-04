@@ -1,0 +1,106 @@
+.container, .ball-animation, .social-card ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.perfil-container{
+    width: 500px;
+    height: 284px;
+    display: flex;
+    position: relative;
+}
+.Info-card{
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    color: #1E3859;
+}
+.card-content img{
+    height: 8px;
+}
+.card-content h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -8px;
+}
+.card-animation{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+}
+.ball-animation{
+    flex-direction: column;
+}
+.ball-animation .ball{
+    animation: jump 1.8s ease-in-out infinite;
+}
+.ball-animation .bar{
+    margin-left: 10px;
+}
+.perfil-image{
+    width: 500px;
+    height: 284px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.perfil-image img{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.social-card{
+    margin-top: 40px;
+    height: fit-content;
+    width: fit-content;
+}
+.social-card p{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #43638C;
+    margin-bottom: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+.social-card ul{
+    width: 400px;
+    height: fit-content;
+}
+.social-card ul li{
+    height: 58px;
+    width: 100%;
+    background: #ADD1F3;
+    border: solid 2px #1E3859;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+.social-card ul li img{
+    padding-left: 16px;
+}
+.social-card ul li a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #1E3859;
+    transition: ease 1s;
+}
+.social-card ul li a:hover{
+    color: #ADD1F3;
+    background: linear-gradient(90deg, #ADD1F3,#43638C,#43638C);
+}
+
