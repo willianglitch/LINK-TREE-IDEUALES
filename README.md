@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="Cards pokemon " src=".gitHub/IDEUALES-PERFIL.png" width="100%">
+  <img alt=" imagem de uma aplicação que facilitar a transição entre redes sociais." src=".github/IDEUALES-PERFIL.png" width="100%">
 </p>
 
 <br>
