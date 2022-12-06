@@ -1,6 +1,6 @@
 function perfilTitle(name,iconBar){
     return(`
-        <img src="./src/assets/${iconBar}.svg" alt="">
+        <img src="./src/assets/${iconBar}.svg" alt="imagem de uma barra horizontal ">
         <h1>${name}</h1>
 `)
 }
@@ -8,19 +8,19 @@ function perfilTitle(name,iconBar){
 function addAnimation(iconBar,iconBall){
     return(`
     <div class="ball-animation">
-        <img class="ball" src="./src/assets/${iconBall}.svg" alt="">
-        <img class="small-bar" src="./src/assets/${iconBar}.svg" alt="">
+        <img class="ball" src="./src/assets/${iconBall}.svg" alt="icone de uma bola de futebol ">
+        <img class="small-bar" src="./src/assets/${iconBar}.svg" alt="imagem de uma barra horizontal ">
     </div>
     <div class="ball-animation">
-        <img class="ball" src="./src/assets/${iconBall}.svg" alt="">
-        <img class="bar small-bar" src="./src/assets/${iconBar}.svg" alt="">
+        <img class="ball" src="./src/assets/${iconBall}.svg" alt="icone de uma bola de futebol">
+        <img class="bar small-bar" src="./src/assets/${iconBar}.svg" alt="imagem de uma barra horizontal">
     </div>    
 `)
 }
 
 function createLI(networks,name,link){
   return (`
-        <li> <img src="./src/assets/${networks}.svg" alt="icone Instragram"><a target="_blank" href="${link}">${name}</a></li>
+        <li> <img src="./src/assets/${networks}.svg" alt="icone ${networks}"><a target="_blank" href="${link}">${name}</a></li>
 `)  
 }
 
@@ -37,7 +37,7 @@ document.querySelector('#App').innerHTML = `
         </div>
 
         <div class="perfil-image">
-            <img src="./src/assets/Perfil.svg" alt="">
+            <img src="./src/assets/Perfil.svg" alt="imagem de um rapaz moreno enquanto ele anda pela rua ">
         </div>
     </div>
 
@@ -46,7 +46,7 @@ document.querySelector('#App').innerHTML = `
         <ul>
             ${createLI('Instragram','instragram','https://instagram.com/ideuales_hassan?igshid=MWI4MTIyMDE=')}
             ${createLI('Tiktok','tiktok','https://www.tiktok.com/@ideuales_hassan')}
-            ${createLI('facebook','facebook','https://www.facebook.com/ideuales.ramos?mibextid=LQQJ4d')}
+            ${createLI('Facebook','facebook','https://www.facebook.com/ideuales.ramos?mibextid=LQQJ4d')}
             ${createLI('Twitter','twitter','https://twitter.com/Ideualess')}
         </ul>
     </div>
